@@ -18,7 +18,7 @@ pip install -r requirements.txt
 python server.py
 ```
 
-# Uppsetning
+## Uppsetning
 
 Í skránni `app/config.py` má sjá fjórar stillingar
 
