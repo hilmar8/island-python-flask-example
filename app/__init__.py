@@ -31,8 +31,3 @@ def create_app(config=config.BaseConfig):
         return redirect(url_for('auth.login'))
 
     return app
-
-if __name__ == "__main__":
-    app = create_app()
-
-    app.run(host='0.0.0.0', debug=True, port=5000)
