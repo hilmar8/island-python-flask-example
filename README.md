@@ -1,8 +1,6 @@
 # Innskráning með Íslykli með Python og Flask
 Dæmi um Flask forrit sem notast við Íslykil frá Þjóðskrá. Sjá https://www.island.is/innskraningarthjonusta.
 
-Forritið er byggt upp eftir sniðmáti frá https://github.com/cburmeister/flask-bones.
-
 Innskráning byggir á upplýsingum frá https://www.island.is/media/pdf-skjol-a-island.is-2014/Innskraning-Island-is---leidbeiningar-utg-2-0.pdf.
 
 ## Keyrsla
