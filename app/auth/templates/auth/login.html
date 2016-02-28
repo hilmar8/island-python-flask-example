@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}{% trans %}Innskráning{% endtrans %}{% endblock %}
+
+{% block content %}
+    <h2>{% trans %}Innskráning{% endtrans %}</h2>
+
+    <a href="https://innskraning.island.is/?id={{ config.ISLAND_SITE_ID }}">
+        {% trans %}Smelltu hér til að skrá þig inn með Íslykli.{% endtrans %}
+    </a>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}{% trans %}Halló{% endtrans %}{% endblock %}
+
+{% block content %}
+<h2>{% trans %}Hæ,{% endtrans %} {{ current_user.ssn }}</h2>
+
+<p></p>
+
+<a href="{{ url_for('auth.logout') }}">
+    {% trans %}Smelltu hér til að skrá þig út.{% endtrans %}
+</a>
+{% endblock %}

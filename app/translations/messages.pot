@@ -1,0 +1,84 @@
+# Translations template for PROJECT.
+# Copyright (C) 2016 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2016-02-28 18:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+#: auth/views.py:41
+msgid "Ógilt svar frá innskráningarþjónustu. Innskráningarlykil vantar."
+msgstr ""
+
+#: auth/views.py:48
+msgid "Ógilt svar frá innskráningarþjónustu. Ógildur innskráningarlykill."
+msgstr ""
+
+#: auth/views.py:58 auth/views.py:77
+msgid ""
+"Ógilt svar frá innskráningarþjónustu. Undirskrift stenst ekki "
+"sannreyningu."
+msgstr ""
+
+#: auth/views.py:93
+msgid "Ógilt svar frá innskráningarþjónustu. Svarið er ekki enn orðið gilt."
+msgstr ""
+
+#: auth/views.py:96
+msgid "Ógilt svar frá innskráningarþjónustu. Svarið er er útrunnið."
+msgstr ""
+
+#: auth/views.py:116
+msgid "Ógilt svar frá innskráningarþjónustu. IP tala stenst ekki sannreyningu."
+msgstr ""
+
+#: auth/views.py:121
+msgid ""
+"Ógilt svar frá innskráningarþjónustu. Vafraupplýsingar standast ekki "
+"sannreyningu."
+msgstr ""
+
+#: auth/views.py:135
+msgid "Ógilt auðkenning notanda. Leyfðar innskráningarleiðir eru: {}."
+msgstr ""
+
+#: auth/templates/auth/login.html:3 auth/templates/auth/login.html:6
+#: auth/templates/auth/login_failed.html:3
+msgid "Innskráning"
+msgstr ""
+
+#: auth/templates/auth/login.html:9
+msgid "Smelltu hér til að skrá þig inn með Íslykli."
+msgstr ""
+
+#: auth/templates/auth/login_failed.html:6
+msgid "Innskráning mistókst"
+msgstr ""
+
+#: auth/templates/auth/login_failed.html:17
+msgid "Smelltu hér til að reyna aftur."
+msgstr ""
+
+#: secure/templates/secure/secure.html:3
+msgid "Halló"
+msgstr ""
+
+#: secure/templates/secure/secure.html:6
+msgid "Hæ,"
+msgstr ""
+
+#: secure/templates/secure/secure.html:11
+msgid "Smelltu hér til að skrá þig út."
+msgstr ""
+

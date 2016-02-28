@@ -1,0 +1,85 @@
+# English translations for PROJECT.
+# Copyright (C) 2016 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2016-02-28 18:16+0000\n"
+"PO-Revision-Date: 2016-02-28 18:18-0000\n"
+"Last-Translator: Test Island <noreply@island.is>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: auth/views.py:41
+msgid "Ógilt svar frá innskráningarþjónustu. Innskráningarlykil vantar."
+msgstr "Invalid response from login service. Login token missing."
+
+#: auth/views.py:48
+msgid "Ógilt svar frá innskráningarþjónustu. Ógildur innskráningarlykill."
+msgstr "Invalid response from login service. Invalid token."
+
+#: auth/views.py:58 auth/views.py:77
+msgid ""
+"Ógilt svar frá innskráningarþjónustu. Undirskrift stenst ekki sannreyningu."
+msgstr "Invalid response from login service. Signature verification failed."
+
+#: auth/views.py:93
+msgid "Ógilt svar frá innskráningarþjónustu. Svarið er ekki enn orðið gilt."
+msgstr "Invalid response from login service. The login is not valid yet."
+
+#: auth/views.py:96
+msgid "Ógilt svar frá innskráningarþjónustu. Svarið er er útrunnið."
+msgstr "Invalid response from login service. The login has expired."
+
+#: auth/views.py:116
+msgid "Ógilt svar frá innskráningarþjónustu. IP tala stenst ekki sannreyningu."
+msgstr "Invalid response from login service. IP failed verification."
+
+#: auth/views.py:121
+msgid ""
+"Ógilt svar frá innskráningarþjónustu. Vafraupplýsingar standast ekki "
+"sannreyningu."
+msgstr ""
+"Invalid response from login service. Browser user agent failed verification."
+
+#: auth/views.py:135
+msgid "Ógilt auðkenning notanda. Leyfðar innskráningarleiðir eru: {}."
+msgstr "Invalid authentication method. The allowed methods are: {}."
+
+#: auth/templates/auth/login.html:3 auth/templates/auth/login.html:6
+#: auth/templates/auth/login_failed.html:3
+msgid "Innskráning"
+msgstr "Login"
+
+#: auth/templates/auth/login.html:9
+msgid "Smelltu hér til að skrá þig inn með Íslykli."
+msgstr "Click here to log in with Íslykill."
+
+#: auth/templates/auth/login_failed.html:6
+msgid "Innskráning mistókst"
+msgstr "Login failed"
+
+#: auth/templates/auth/login_failed.html:17
+msgid "Smelltu hér til að reyna aftur."
+msgstr "Click here to try again."
+
+#: secure/templates/secure/secure.html:3
+msgid "Halló"
+msgstr "Hello"
+
+#: secure/templates/secure/secure.html:6
+msgid "Hæ,"
+msgstr "Hi, "
+
+#: secure/templates/secure/secure.html:11
+msgid "Smelltu hér til að skrá þig út."
+msgstr "Click here to log out."
