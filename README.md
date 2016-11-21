@@ -8,10 +8,6 @@ Innskráning byggir á upplýsingum frá https://www.island.is/media/pdf-skjol-a
 Ég mæli með því að setja upp Virtualenv fyrir Python.
 
 ```sh
-pip install virtualenv
-virtualenv /slóð/á/virtualenv/island
-source /slóð/á/virtualenv/island/bin/activate
-
 # SignXML þarf ákveðna hluti setta upp í stýrikerfi. Sjá https://signxml.readthedocs.org/en/latest/.
 pip install -r requirements.txt
 
